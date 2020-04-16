@@ -4,9 +4,9 @@ function diceeGame() {
 
     var dice2 = Math.floor(Math.random() * 6) + 1;
 
-    var image1 = "/images/dice" + dice1 + ".png";
+    var image1 = "./images/dice" + dice1 + ".png";
 
-    var image2 = "/images/dice" + dice2 + ".png";
+    var image2 = "./images/dice" + dice2 + ".png";
 
 
     document.getElementsByClassName("player2")[0].querySelector("img").setAttribute("src", image2);
